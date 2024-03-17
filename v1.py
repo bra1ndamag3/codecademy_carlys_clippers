@@ -21,5 +21,6 @@ for i in range(len(hairstyles)):
 print('Total Revenue: ', total_revenue)
 avg_daily_revenue = total_revenue / 7
 print('Average Daily Revenue: ', avg_daily_revenue)
+#Haircuts that are less than $30 for marketing purposes
 cuts_under_30 = [hairstyles[i] for i in range(len(new_prices)) if new_prices[i] < 30]
 print('Cuts under 30: ', cuts_under_30)
